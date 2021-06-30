@@ -1,5 +1,5 @@
 import numpy as np
-import scipy as sp
+import scipy.fft as fft
 import pyaudio
 
 class Chromagram:
@@ -101,7 +101,7 @@ class Chromagram:
             self.downsampled[i] = filtered_frame[i*4]
 
     def calculate_magnitude_spectrum(self):
-        self.magnitude_spectrum = np.sqrt(np.abs(sp.fft.rfft(self.buffer)))
+        self.magnitude_spectrum = np.sqrt(np.abs(fft.rfft(self.buffer)))
 
     def make_hamming_window(self, buffer_size):
         self.window = np.array([0.54 - 0.46 * np.cos(2 * np.pi * (i /buffer_size)) for i in range(buffer_size)])
