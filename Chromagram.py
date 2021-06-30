@@ -118,7 +118,7 @@ if __name__ == "__main__":
                   frames_per_buffer=CHUNK)
 
     for i in range(int(60*44100/1024)): #go for a few seconds
-        data = np.frombuffer(stream.read(CHUNK, , exception_on_overflow = False),dtype=np.int16)
+        data = np.frombuffer(stream.read(CHUNK, exception_on_overflow = False),dtype=np.int16)
         """print(data.shape)
         peak=np.average(np.abs(data))*2
         bars="#"*int(50*peak/2**16)
