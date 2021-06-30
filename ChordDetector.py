@@ -177,7 +177,7 @@ if __name__ == "__main__":
                   frames_per_buffer=CHUNK)
 
     while True:
-        data = np.frombuffer(stream.read(CHUNK))
+        data = np.frombuffer(stream.read(CHUNK), dtype=np.int16)
         print(max(np.abs(data)))
         """print(data.shape)
         peak=np.average(np.abs(data))*2
