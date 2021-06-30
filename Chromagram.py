@@ -34,6 +34,7 @@ class Chromagram:
         self.chroma_ready = False
 
     def process_audio_frame(self, input_audio_frame):
+        print(len(input_audio_frame))
         self.chroma_ready = False
 
         self.downsample_frame(input_audio_frame)
