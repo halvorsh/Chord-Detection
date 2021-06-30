@@ -107,7 +107,7 @@ class Chromagram:
         self.window = np.array([0.54 - 0.46 * np.cos(2 * np.pi * (i /buffer_size)) for i in range(buffer_size)])
 
 if __name__ == "__main__":
-    CHUNK = 2**17
+    CHUNK = 2**15
     RATE = 44100
 
     index_to_note = ["C","C#","D","D#","E","F","F#","G","Ab","A","Bb","B"]
@@ -115,10 +115,10 @@ if __name__ == "__main__":
     chroma = Chromagram(CHUNK, RATE)#, reference_freq=65.41, num_octaves=3)
     p=pyaudio.PyAudio()
     stream=p.open(format=pyaudio.paInt16,channels=1,rate=RATE,input=True,
-                  frames_per_buffer=CHUNK, exception_on_overflow = False)
+                  frames_per_buffer=CHUNK)
 
     for i in range(int(60*44100/1024)): #go for a few seconds
-        data = np.frombuffer(stream.read(CHUNK),dtype=np.int16)
+        data = np.frombuffer(stream.read(CHUNK, , exception_on_overflow = False),dtype=np.int16)
         """print(data.shape)
         peak=np.average(np.abs(data))*2
         bars="#"*int(50*peak/2**16)
