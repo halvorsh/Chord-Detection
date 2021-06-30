@@ -91,7 +91,7 @@ class Chromagram:
         y_2 = 0
 
         print(len(input_audio_frame))
-        print(self.input_audio_frame_size)
+        print("size:",self.input_audio_frame_size)
 
         for i in range(self.input_audio_frame_size):
             filtered_frame[i] = input_audio_frame[i] * b0 + x_1 * b1 + x_2 * b2 - y_1 * a1 - y_2 * a2
@@ -111,7 +111,7 @@ class Chromagram:
         self.window = np.array([0.54 - 0.46 * np.cos(2 * np.pi * (i /buffer_size)) for i in range(buffer_size)])
 
 if __name__ == "__main__":
-    CHUNK = 2**11
+    CHUNK = 2**13
     RATE = 44100
 
     index_to_note = ["C","C#","D","D#","E","F","F#","G","Ab","A","Bb","B"]
