@@ -184,7 +184,7 @@ if __name__ == "__main__":
         bars="#"*int(50*peak/2**16)
         print("%04d %05d %s"%(i,peak,bars))"""
         chroma.process_audio_frame(data)
-        if max(np.abs(data)) > 8500:
+        if max(np.abs(data)) > 100:
             if(chroma.chroma_ready):
                 pred, score, max_score = chord.classify_chromagram(chroma.chromagram)
                 root = index_to_note[pred%12]
