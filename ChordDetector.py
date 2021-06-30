@@ -164,7 +164,7 @@ class ChordDetector:
         return np.argmin(chord), chord[np.argmin(chord)], max(chord)
 
 if __name__ == "__main__":
-    CHUNK = 2**15
+    CHUNK = 2**13
     RATE = 44100
 
     index_to_note = ["C","C#","D","Eb","E","F","F#","G","Ab","A","Bb","B"]
