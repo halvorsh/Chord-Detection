@@ -108,7 +108,7 @@ class Chromagram:
 
 if __name__ == "__main__":
     CHUNK = 2**15
-    RATE = 44100
+    RATE = 48000
 
     index_to_note = ["C","C#","D","D#","E","F","F#","G","Ab","A","Bb","B"]
 
