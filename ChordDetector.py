@@ -164,7 +164,7 @@ class ChordDetector:
         return np.argmin(chord), chord[np.argmin(chord)], max(chord)
 
 if __name__ == "__main__":
-    CHUNK = 2**13
+    CHUNK = 2**15
     RATE = 44100
 
     index_to_note = ["C","C#","D","Eb","E","F","F#","G","Ab","A","Bb","B"]
@@ -177,7 +177,7 @@ if __name__ == "__main__":
                   frames_per_buffer=CHUNK)
 
     while True:
-        data = np.frombuffer(stream.read(CHUNK), dtype=np.int16)
+        data = np.frombuffer(stream.read(CHUNK, exception_on_overflow = False), dtype=np.int16)
         print(max(np.abs(data)))
         """print(data.shape)
         peak=np.average(np.abs(data))*2
