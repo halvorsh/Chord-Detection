@@ -107,7 +107,7 @@ class Chromagram:
         self.window = np.array([0.54 - 0.46 * np.cos(2 * np.pi * (i /buffer_size)) for i in range(buffer_size)])
 
 if __name__ == "__main__":
-    CHUNK = 2**15
+    CHUNK = 2**16
     RATE = 44100
 
     index_to_note = ["C","C#","D","D#","E","F","F#","G","Ab","A","Bb","B"]
