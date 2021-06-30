@@ -90,6 +90,7 @@ class Chromagram:
         y_1 = 0
         y_2 = 0
 
+        print(len(input_audio_frame))
         for i in range(self.input_audio_frame_size):
             filtered_frame[i] = input_audio_frame[i] * b0 + x_1 * b1 + x_2 * b2 - y_1 * a1 - y_2 * a2
 
