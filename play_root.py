@@ -36,7 +36,7 @@ def convert_note_to_solinoid(note):
 
 def play_solinoid(note):
     msg = mido.Message('sysex', data=NOTE_ON)
-    msg.data += [32, note_to_play+48]
+    msg.data += [32, note+48]
     print(msg.hex())
     PORT.send(msg)
 
