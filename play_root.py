@@ -20,7 +20,7 @@ print(NOTES)
 def play_note(note):
     midi_note = (note-4)%12+52
     note_to_play = None
-    for i in range(1):
+    for i in range(2):
         tested_note = midi_note+12*i
         print(tested_note, NOTES)
         if tested_note in NOTES:
