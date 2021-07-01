@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from Chromagram import Chromagram
 from ChordDetector import ChordDetector
 
-NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110]
+NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110, 32, 37, 105]
 NOTE_OFF = [0, 47, 110, 111, 116, 101, 95, 111, 102, 102, 32, 37, 105]
 ALL_NOTES_OFF = [0, 47, 97, 108, 108, 95, 110, 111, 116, 101, 115, 95, 111, 102, 102]
 BLINK = [0,47, 98, 108, 105, 110, 107]
@@ -24,7 +24,7 @@ def play_note(note):
         tested_note = midi_note+12*i
         print(tested_note, NOTES)
         if tested_note in NOTES:
-            note_to_play = NOTES.index(tested_note)
+            note_to_play = NOTES.index(tested_note)+48
             print(tested_note, note_to_play)
             break;
     if note_to_play != None:
