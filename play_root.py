@@ -8,7 +8,7 @@ from ChordDetector import ChordDetector
 NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110, 32, 37, 105]
 NOTE_OFF = [0, 47, 110, 111, 116, 101, 95, 111, 102, 102, 32, 37, 105]
 BLINK = [0,47, 98, 108, 105, 110, 107]
-PORT = mido.open_output('Dr Squiggles:DrSquiggles MIDI 1 20:0')
+PORT = mido.open_output('Dr Squiggles:Dr Squiggles MIDI 1 20:0')
 
 def play_note(note):
     msg = mido.Message('sysex', data=NOTE_ON)
