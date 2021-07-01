@@ -66,7 +66,7 @@ while True:
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
-            play_note(root)
+            play_note(pred%12)
 
 stream.stop_stream()
 stream.close()
