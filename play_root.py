@@ -17,21 +17,26 @@ root = tree.getroot()
 NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 print(NOTES)
 
-def play_note(note):
+def convert_note_to_solinoid(note):
     midi_note = (note-4)%12+52
     note_to_play = None
     for i in range(2):
         tested_note = midi_note+12*i
         print(tested_note, NOTES)
         if tested_note in NOTES:
-            note_to_play = NOTES.index(tested_note)+48
+            note_to_play = NOTES.index(tested_note)
             print(tested_note, note_to_play)
             break;
     if note_to_play != None:
-        msg = mido.Message('sysex', data=NOTE_ON)
-        msg.data += [32, note_to_play]
-        print(msg.hex())
-        PORT.send(msg)
+        play_solinoid(note_to_play)
+        return True
+    return False
+
+def play_solinoid(note):
+    msg = mido.Message('sysex', data=NOTE_ON)
+    msg.data += [32, note_to_play+48]
+    print(msg.hex())
+    PORT.send(msg)
 
 def stop_play(note):
     msg = mido.Message('sysex', data=NOTE_OFF)
@@ -41,6 +46,10 @@ def stop_play(note):
 def stop_all():
     msg = mido.Message('sysex', data=ALL_NOTES_OFF)
     PORT.send(msg)
+
+def play_chord(chord):
+    notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
+    print(notes_in_chord)
 
 CHUNK = 2**15
 RATE = 44100
@@ -69,7 +78,8 @@ while True:
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
-            play_note(pred%12)
+            #convert_note_to_solinoid(pred%12)
+            play_chord(chord.chord_profiles[pred])
 
 stream.stop_stream()
 stream.close()
