@@ -161,7 +161,7 @@ class ChordDetector:
         for j in range(84, 108):
             chord[j] = self.calculate_chord_score(chromagram, self.chord_profiles[j],bias,4)
 
-        return np.argmin(chord), chord[np.argmin(chord)], max(chord)
+        return np.argmin(chord)
 
 if __name__ == "__main__":
     CHUNK = 2**15
@@ -186,10 +186,10 @@ if __name__ == "__main__":
         chroma.process_audio_frame(data)
         if max(np.abs(data)) > 100:
             if(chroma.chroma_ready):
-                pred, score, max_score = chord.classify_chromagram(chroma.chromagram)
+                pred = chord.classify_chromagram(chroma.chromagram)
                 root = index_to_note[pred%12]
                 type = type_of_chord[int(pred//12)]
-                print(root, type, score, max_score - score)
+                print(root, type)
 
     stream.stop_stream()
     stream.close()

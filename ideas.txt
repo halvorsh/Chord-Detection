@@ -1,0 +1,9 @@
+Ideas for how the squiggles can play
+1. Play the root note if they have it, if they have multiple play the lowest/first
+2. Play any note in the chord, if they have it
+3. Start on a random note in the chord, then following that go to the closest note you have that is in the chord
+4. Triads?
+5. More planning, play x chords first and then have the squiggles try to lead their voices between the chords
+
+
+port name: hw:Squiggles/"Dr Squiggles"
