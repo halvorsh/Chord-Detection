@@ -1,16 +1,25 @@
 import numpy as np
 import pyaudio
 import mido
+import xml.etree.ElementTree as ET
 
 from Chromagram import Chromagram
 from ChordDetector import ChordDetector
 
 NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110, 32, 37, 105]
 NOTE_OFF = [0, 47, 110, 111, 116, 101, 95, 111, 102, 102, 32, 37, 105]
+ALL_NOTES_OFF = [0, 47, 97, 108, 108, 95, 110, 111, 116, 101, 115, 95, 111, 102, 102]
 BLINK = [0,47, 98, 108, 105, 110, 107]
 PORT = mido.open_output('Dr Squiggles:Dr Squiggles MIDI 1 20:0')
 
+tree = ET.parse('../.squiggles_notes/squiggles_notes.xml')
+root = tree.getroot()
+NOTES = [int(root[i].text.strip()) for i in range(1,9)]
+print(NOTES)
+
 def play_note(note):
+    midi_note = (note-4)%12+52
+
     msg = mido.Message('sysex', data=NOTE_ON)
     msg.data += [note]
     PORT.send(msg)
@@ -18,6 +27,10 @@ def play_note(note):
 def stop_play(note):
     msg = mido.Message('sysex', data=NOTE_OFF)
     msg.data += [note]
+    PORT.send(msg)
+
+def stop_all():
+    msg = mido.Message('sysex', data=ALL_NOTES_OFF)
     PORT.send(msg)
 
 CHUNK = 2**15
