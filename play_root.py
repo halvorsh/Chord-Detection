@@ -19,10 +19,16 @@ print(NOTES)
 
 def play_note(note):
     midi_note = (note-4)%12+52
-
-    msg = mido.Message('sysex', data=NOTE_ON)
-    msg.data += [note]
-    PORT.send(msg)
+    note_to_play = None
+    for i in range(1):
+        tested_note = midi_note+12*i
+        if tested_note in NOTES:
+            note_to_play = NOTES.index(tested_note)
+            print(tested_note, note_to_play)
+    if note_to_play != None:
+        msg = mido.Message('sysex', data=NOTE_ON)
+        msg.data += [note_to_play]
+        PORT.send(msg)
 
 def stop_play(note):
     msg = mido.Message('sysex', data=NOTE_OFF)
@@ -53,13 +59,14 @@ while True:
     bars="#"*int(50*peak/2**16)
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
-    stop_play(3)
+    stop_all()
     if max(np.abs(data)) > 5000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
-            play_note(3)
+            print(root, type)
+            play_note(root)
 
 stream.stop_stream()
 stream.close()
