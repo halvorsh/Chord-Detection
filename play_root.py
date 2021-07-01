@@ -30,6 +30,7 @@ def play_note(note):
     if note_to_play != None:
         msg = mido.Message('sysex', data=NOTE_ON)
         msg.data += [note_to_play]
+        print(msg.hex())
         PORT.send(msg)
 
 def stop_play(note):
