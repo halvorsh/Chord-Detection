@@ -26,6 +26,7 @@ def play_note(note):
         if tested_note in NOTES:
             note_to_play = NOTES.index(tested_note)
             print(tested_note, note_to_play)
+            break;
     if note_to_play != None:
         msg = mido.Message('sysex', data=NOTE_ON)
         msg.data += [note_to_play]
