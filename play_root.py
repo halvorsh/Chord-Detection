@@ -20,13 +20,13 @@ print(NOTES)
 def convert_note_to_solinoid(note):
     midi_note = (note-4)%12+52
     note_to_play = None
-    for i in range(2):
+    for i in np.random.shuffle([0,1]):
         tested_note = midi_note+12*i
         print(tested_note, NOTES)
         if tested_note in NOTES:
             note_to_play = NOTES.index(tested_note)
             print(tested_note, note_to_play)
-            break;
+            break
     if note_to_play != None:
         play_solinoid(note_to_play)
         return True
@@ -49,7 +49,10 @@ def stop_all():
 
 def play_chord(chord):
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
-    print(notes_in_chord)
+    notes_in_chord = np.random.shuffle(notes_in_chord)
+    for note in notes_in_chord:
+        if convert_note_to_solinoid(note):
+            break
 
 CHUNK = 2**15
 RATE = 44100
