@@ -8,7 +8,7 @@ from ChordDetector import ChordDetector
 NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110, 32, 37, 105]
 NOTE_OFF = [0, 47, 110, 111, 116, 101, 95, 111, 102, 102, 32, 37, 105]
 BLINK = [0,47, 98, 108, 105, 110, 107]
-PORT = mido.open_ouput('hw:Squiggles')
+PORT = mido.open_ouput('Dr Squiggles:DrSquiggles MIDI 1 20:0')
 
 def play_note(note):
     msg = mido.Message('sysex', data=NOTE_ON)
@@ -40,8 +40,8 @@ while True:
     bars="#"*int(50*peak/2**16)
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
-    if max(np.abs(data)) > 100:
-        stop_play(3)
+    stop_play(3)
+    if max(np.abs(data)) > 5000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
