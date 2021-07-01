@@ -50,6 +50,7 @@ def stop_all():
 def play_chord(chord):
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
     notes_in_chord = np.random.shuffle(notes_in_chord)
+    print(notes_in_chord)
     for note in notes_in_chord:
         if convert_note_to_solinoid(note):
             break
