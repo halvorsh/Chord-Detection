@@ -22,6 +22,7 @@ def play_note(note):
     note_to_play = None
     for i in range(1):
         tested_note = midi_note+12*i
+        print(tested_note, NOTES)
         if tested_note in NOTES:
             note_to_play = NOTES.index(tested_note)
             print(tested_note, note_to_play)
