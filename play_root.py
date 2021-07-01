@@ -24,10 +24,8 @@ def convert_note_to_solinoid(note):
     np.random.shuffle(octaves)
     for i in octaves:
         tested_note = midi_note+12*i
-        print(tested_note, NOTES)
         if tested_note in NOTES:
             note_to_play = NOTES.index(tested_note)
-            print(tested_note, note_to_play)
             break
     if note_to_play != None:
         play_solinoid(note_to_play)
@@ -37,7 +35,6 @@ def convert_note_to_solinoid(note):
 def play_solinoid(note):
     msg = mido.Message('sysex', data=NOTE_ON)
     msg.data += [32, note+48]
-    print(msg.hex())
     PORT.send(msg)
 
 def stop_play(note):
@@ -77,7 +74,7 @@ while True:
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
     stop_all()
-    if max(np.abs(data)) > 5000:
+    if max(np.abs(data)) > 3000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
