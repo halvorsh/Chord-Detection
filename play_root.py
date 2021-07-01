@@ -29,13 +29,13 @@ def play_note(note):
             break;
     if note_to_play != None:
         msg = mido.Message('sysex', data=NOTE_ON)
-        msg.data += [note_to_play]
+        msg.data += [32, note_to_play]
         print(msg.hex())
         PORT.send(msg)
 
 def stop_play(note):
     msg = mido.Message('sysex', data=NOTE_OFF)
-    msg.data += [note]
+    msg.data += [32, note]
     PORT.send(msg)
 
 def stop_all():
