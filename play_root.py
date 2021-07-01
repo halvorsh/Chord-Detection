@@ -46,7 +46,7 @@ while True:
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
-            play(3)
+            play_note(3)
 
 stream.stop_stream()
 stream.close()
