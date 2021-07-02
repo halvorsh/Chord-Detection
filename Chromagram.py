@@ -1,5 +1,5 @@
 import numpy as np
-import scipy.fft as fft
+import numpy.fft as fft
 import pyaudio
 
 class Chromagram:
