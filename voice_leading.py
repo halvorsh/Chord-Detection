@@ -9,12 +9,13 @@ from ChordDetector import ChordDetector
 NOTE_ON = [0, 47, 110, 111, 116, 101, 95, 111, 110]
 NOTE_OFF = [0, 47, 110, 111, 116, 101, 95, 111, 102, 102, 32, 37, 105]
 ALL_NOTES_OFF = [0, 47, 97, 108, 108, 95, 110, 111, 116, 101, 115, 95, 111, 102, 102]
-BLINK = [0,47, 98, 108, 105, 110, 107]
+BLINK = [0, 47, 98, 108, 105, 110, 107]
 PORT = mido.open_output('Dr Squiggles:Dr Squiggles MIDI 1 20:0')
 
-tree = ET.parse('../.squiggles_notes/squiggles_notes.xml')
+"""tree = ET.parse('../.squiggles_notes/squiggles_notes.xml')
 root = tree.getroot()
-NOTES = [int(root[i].text.strip()) for i in range(1,9)]
+NOTES = [int(root[i].text.strip()) for i in range(1,9)]"""
+NOTES = [73, 66, 58, 54, 53, 61, 65, 72]
 print(NOTES)
 
 def convert_note_to_solinoid(note):
@@ -80,8 +81,8 @@ while True:
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
-            convert_note_to_solinoid(pred%12)
-            #play_chord(chord.chord_profiles[pred])
+            #convert_note_to_solinoid(pred%12)
+            play_chord(chord.chord_profiles[pred])
 
 stream.stop_stream()
 stream.close()

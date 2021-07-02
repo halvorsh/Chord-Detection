@@ -80,8 +80,8 @@ while True:
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
-            convert_note_to_solinoid(pred%12)
-            #play_chord(chord.chord_profiles[pred])
+            #convert_note_to_solinoid(pred%12)
+            play_chord(chord.chord_profiles[pred])
 
 stream.stop_stream()
 stream.close()
