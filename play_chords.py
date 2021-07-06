@@ -74,7 +74,7 @@ while True:
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
     stop_all()
-    if max(np.abs(data)) > 3000:
+    if max(np.abs(data)) > 1000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
