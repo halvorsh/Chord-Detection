@@ -76,7 +76,7 @@ def voice_leading(chord):
         PREVIOUS_NOTE = None
         return
 
-    min_distance = 24
+    min_distance = 48
     best_note = None
     for note in possible_notes:
         dist = np.abs(PREVIOUS_NOTE - note)
