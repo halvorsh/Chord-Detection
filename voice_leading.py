@@ -85,10 +85,9 @@ def voice_leading(chord):
 
     print(PREVIOUS_NOTE, best_note, NOTES)
     PREVIOUS_NOTE = best_note
-    note_to_play = None
     if best_note != None:
         note_to_play = NOTES.index(best_note)
-    play_solinoid(note_to_play)
+        play_solinoid(note_to_play)
 
 
 
