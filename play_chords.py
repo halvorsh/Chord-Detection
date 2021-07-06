@@ -53,13 +53,13 @@ def play_chord(chord):
         if convert_note_to_solinoid(note):
             break
 
-CHUNK = 2**15
+CHUNK = 2**10
 RATE = 44100
 
 index_to_note = ["C","C#","D","Eb","E","F","F#","G","Ab","A","Bb","B"]
 type_of_chord = ["Major", "Minor", "Diminished", "Augmented", "Sus2", "Sus4", "Major 7th", "Minor 7th", "Dominant 7th"]
 
-chroma = Chromagram(CHUNK, RATE)#, buffer_size=2**14)#, reference_freq=65.41, num_octaves=3)
+chroma = Chromagram(CHUNK, RATE, buffer_size=2**11)#, reference_freq=65.41, num_octaves=3)
 chord = ChordDetector()
 p=pyaudio.PyAudio()
 stream=p.open(format=pyaudio.paInt16,channels=1,rate=RATE,input=True,
