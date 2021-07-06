@@ -80,7 +80,7 @@ def voice_leading(chord):
     best_note = None
     for note in possible_notes:
         dist = np.abs(PREVIOUS_NOTE - note)
-        if dist < min_distance:
+        if dist < min_distance and dist != 0:
             best_note = note
 
     print(PREVIOUS_NOTE, best_note, NOTES)
