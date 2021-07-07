@@ -33,7 +33,6 @@ def convert_note_to_solinoid(note):
     return False
 
 def play_solinoid(note):
-    stop_all()
     msg = mido.Message('sysex', data=NOTE_ON)
     msg.data += [32, note+48]
     PORT.send(msg)
@@ -74,6 +73,7 @@ while True:
     bars="#"*int(50*peak/2**16)
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
+    stop_all()
     if max(np.abs(data)) > 1000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
