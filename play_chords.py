@@ -82,7 +82,7 @@ while True:
     new_energy = np.sum(pos_values)
     print(new_energy)
 
-    if new_energy > 400 and note_counter == 0:
+    if new_energy > 20000 and note_counter == 0:
         stop_all()
         if(chroma.chroma_ready):
             note_counter = NOTE_LENGTH
@@ -93,8 +93,8 @@ while True:
             print(root, type)
             #convert_note_to_solinoid(pred%12)
             play_chord(chord.chord_profiles[pred])
-    elif new_energy > 400:
-        NOTE_COUNTER -= 1
+    elif new_energy > 20000:
+        note_counter -= 1
     elif silence_counter == 0:
         stop_all()
     else:
