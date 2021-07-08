@@ -82,7 +82,7 @@ while True:
     new_energy = np.sum(pos_values)
     print(new_energy)
 
-    if new_energy > 2000 and note_counter == 0:
+    if new_energy > 10000 and note_counter == 0:
         stop_all()
         if(chroma.chroma_ready):
             #note_counter = NOTE_LENGTH
