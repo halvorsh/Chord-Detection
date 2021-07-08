@@ -17,7 +17,7 @@ root = tree.getroot()
 NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 print(NOTES)
 
-TIME_TILL_SILENCE = 15
+TIME_TILL_SILENCE = 8
 silence_counter = 0
 
 def convert_note_to_solinoid(note):
