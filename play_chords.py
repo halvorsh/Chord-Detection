@@ -17,6 +17,11 @@ root = tree.getroot()
 NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 print(NOTES)
 
+NOTE_LENGTH = 30
+note_counter = 0
+TIME_TILL_SILENCE = 30
+silence_counter = 0
+
 def convert_note_to_solinoid(note):
     midi_note = (note-4)%12+52
     note_to_play = None
@@ -76,16 +81,25 @@ while True:
     pos_values = spectrum_dif[spectrum_dif>0]
     new_energy = np.sum(pos_values)
     print(new_energy)
-    stop_all()
-    if new_energy > 400:
+
+    if new_energy > 400 and note_counter = 0:
+        stop_all()
         if(chroma.chroma_ready):
+            note_counter = NOTE_LENGTH
+            silence_counter = TIME_TILL_SILENCE
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
             #convert_note_to_solinoid(pred%12)
             play_chord(chord.chord_profiles[pred])
-
+    else if new_energy > 400:
+        NOTE_COUNTER -= 1
+    else if silence_counter == 0:
+        stop_all()
+    else:
+        silence_counter = 0
+        
 stream.stop_stream()
 stream.close()
 p.terminate()
