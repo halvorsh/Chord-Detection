@@ -85,20 +85,20 @@ while True:
     if new_energy > 10000 and note_counter == 0:
         stop_all()
         if(chroma.chroma_ready):
-            #note_counter = NOTE_LENGTH
-            #silence_counter = TIME_TILL_SILENCE
+            note_counter = NOTE_LENGTH
+            silence_counter = TIME_TILL_SILENCE
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
             #convert_note_to_solinoid(pred%12)
             play_chord(chord.chord_profiles[pred])
-    """elif new_energy > 20000:
+    elif new_energy > 20000:
         note_counter -= 1
     elif silence_counter == 0:
         stop_all()
     else:
-        silence_counter = 0"""
+        silence_counter -= 1
 
 stream.stop_stream()
 stream.close()
