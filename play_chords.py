@@ -36,6 +36,7 @@ def convert_note_to_solinoid(note):
     return False
 
 def play_solinoid(note):
+    stop_all()
     msg = mido.Message('sysex', data=NOTE_ON)
     msg.data += [32, note+48]
     PORT.send(msg)
@@ -81,7 +82,7 @@ while True:
     print(new_energy)
 
     if new_energy > 15000:
-        stop_all()
+
         if(chroma.chroma_ready):
             silence_counter = TIME_TILL_SILENCE
             pred = chord.classify_chromagram(chroma.chromagram)
