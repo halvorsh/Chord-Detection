@@ -93,9 +93,9 @@ while True:
             print(root, type)
             #convert_note_to_solinoid(pred%12)
             play_chord(chord.chord_profiles[pred])
-    else if new_energy > 400:
+    elif new_energy > 400:
         NOTE_COUNTER -= 1
-    else if silence_counter == 0:
+    elif silence_counter == 0:
         stop_all()
     else:
         silence_counter = 0
