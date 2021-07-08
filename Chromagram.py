@@ -18,6 +18,7 @@ class Chromagram:
 
         self.buffer = np.zeros(buffer_size)
         self.chromagram = np.zeros(12)
+        self.previous_spectrum = np.zeros(int(buffer_size/2)+1)
         self.magnitude_spectrum = np.zeros(int(buffer_size/2)+1)
 
         self.make_hamming_window(buffer_size)
@@ -101,6 +102,7 @@ class Chromagram:
             self.downsampled[i] = filtered_frame[i*4]
 
     def calculate_magnitude_spectrum(self):
+        self.previous_spectrum = self.magnitude_spectrum
         self.magnitude_spectrum = np.sqrt(np.abs(fft.rfft(self.buffer)))
 
     def make_hamming_window(self, buffer_size):

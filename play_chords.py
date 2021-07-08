@@ -67,14 +67,17 @@ stream=p.open(format=pyaudio.paInt16,channels=1,rate=RATE,input=True,
 
 while True:
     data = np.frombuffer(stream.read(CHUNK, exception_on_overflow = False), dtype=np.int16)
-    print(max(np.abs(data)))
     """print(data.shape)
     peak=np.average(np.abs(data))*2
     bars="#"*int(50*peak/2**16)
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
+    spectrum_dif = chroma.magnitude_spectrum - chroma.previous_spectrum
+    pos_values = spectrum_dif[spectrum_dif>0]
+    new_energy = np.sum(pos_values)
+    print(new_energy)
     stop_all()
-    if max(np.abs(data)) > 400:
+    if new_energy > 400:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
