@@ -82,7 +82,6 @@ while True:
     print(new_energy)
 
     if new_energy > 15000:
-
         if(chroma.chroma_ready):
             silence_counter = TIME_TILL_SILENCE
             pred = chord.classify_chromagram(chroma.chromagram)
@@ -95,6 +94,7 @@ while True:
         stop_all()
     else:
         silence_counter -= 1
+        print(silence_counter)
 
 stream.stop_stream()
 stream.close()
