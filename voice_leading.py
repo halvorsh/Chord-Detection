@@ -18,7 +18,7 @@ NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 PREVIOUS_NOTE = None
 print(NOTES)
 
-TIME_TILL_SILENCE = 10
+TIME_TILL_SILENCE = 30
 silence_counter = 0
 
 def convert_note_to_solinoid(note):
