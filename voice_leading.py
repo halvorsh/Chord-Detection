@@ -18,6 +18,9 @@ NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 PREVIOUS_NOTE = None
 print(NOTES)
 
+TIME_TILL_SILENCE = 10
+silence_counter = 0
+
 def convert_note_to_solinoid(note):
     global PREVIOUS_NOTE
     midi_note = (note-4)%12+52
@@ -36,6 +39,7 @@ def convert_note_to_solinoid(note):
     return False
 
 def play_solinoid(note):
+    stop_all()
     msg = mido.Message('sysex', data=NOTE_ON)
     msg.data += [32, note+48]
     PORT.send(msg)
@@ -111,14 +115,24 @@ while True:
     bars="#"*int(50*peak/2**16)
     print("%04d %05d %s"%(i,peak,bars))"""
     chroma.process_audio_frame(data)
-    stop_all()
-    if max(np.abs(data)) > 3000:
+    spectrum_dif = chroma.magnitude_spectrum - chroma.previous_spectrum
+    pos_values = spectrum_dif[spectrum_dif>0]
+    new_energy = np.sum(pos_values)
+    print(new_energy)
+
+    if new_energy > 15000:
         if(chroma.chroma_ready):
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
             print(root, type)
             voice_leading(chord.chord_profiles[pred])
+    elif silence_counter == 0:
+        stop_all()
+    else:
+        silence_counter -= 1
+        print(silence_counter)
+
 stream.stop_stream()
 stream.close()
 p.terminate()
