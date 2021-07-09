@@ -18,7 +18,7 @@ NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 PREVIOUS_NOTE = None
 print(NOTES)
 
-TIME_TILL_SILENCE = 30
+TIME_TILL_SILENCE = 10
 silence_counter = 0
 
 def convert_note_to_solinoid(note):
@@ -122,6 +122,7 @@ while True:
 
     if new_energy > 15000:
         if(chroma.chroma_ready):
+            silence_counter = TIME_TILL_SILENCE
             pred = chord.classify_chromagram(chroma.chromagram)
             root = index_to_note[pred%12]
             type = type_of_chord[int(pred//12)]
