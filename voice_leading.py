@@ -121,13 +121,12 @@ while True:
     print(new_energy)
 
     if new_energy > 15000:
-        if(chroma.chroma_ready):
-            silence_counter = TIME_TILL_SILENCE
-            pred = chord.classify_chromagram(chroma.chromagram)
-            root = index_to_note[pred%12]
-            type = type_of_chord[int(pred//12)]
-            print(root, type)
-            voice_leading(chord.chord_profiles[pred])
+        silence_counter = TIME_TILL_SILENCE
+        pred = chord.classify_chromagram(chroma.chromagram)
+        root = index_to_note[pred%12]
+        type = type_of_chord[int(pred//12)]
+        print(root, type)
+        voice_leading(chord.chord_profiles[pred])
     elif silence_counter == 0:
         stop_all()
     else:
