@@ -15,28 +15,11 @@ PORT = mido.open_output('Dr Squiggles:Dr Squiggles MIDI 1 20:0')
 tree = ET.parse('../.squiggles_notes/squiggles_notes.xml')
 root = tree.getroot()
 NOTES = [int(root[i].text.strip()) for i in range(1,9)]
-PREVIOUS_NOTE = None
+PREVIOUS_NOTE = 64
 print(NOTES)
 
 TIME_TILL_SILENCE = 8
 silence_counter = 0
-
-def convert_note_to_solinoid(note):
-    global PREVIOUS_NOTE
-    midi_note = (note-4)%12+52
-    note_to_play = None
-    octaves = [0,1]
-    np.random.shuffle(octaves)
-    for i in octaves:
-        tested_note = midi_note+12*i
-        if tested_note in NOTES:
-            PREVIOUS_NOTE = tested_note
-            note_to_play = NOTES.index(tested_note)
-            break
-    if note_to_play != None:
-        play_solinoid(note_to_play)
-        return True
-    return False
 
 def play_solinoid(note):
     stop_all()
@@ -56,7 +39,6 @@ def stop_all():
 def play_chord(chord):
     global PREVIOUS_NOTE
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
-    np.random.shuffle(notes_in_chord)
     for note in notes_in_chord:
         if convert_note_to_solinoid(note):
             break
@@ -68,16 +50,8 @@ def voice_leading(chord):
         play_chord(chord)
 
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
-    possible_notes = []
-    for note in notes_in_chord:
-        midi_note = (note-4)%12+52
-        for i in range(2):
-            tested_note = midi_note+12*i
-            if tested_note in NOTES:
-                possible_notes.append(tested_note)
 
     if len(possible_notes) == 0:
-        PREVIOUS_NOTE = None
         return
 
     min_distance = 48
@@ -89,7 +63,7 @@ def voice_leading(chord):
 
     print(PREVIOUS_NOTE, best_note, NOTES)
     PREVIOUS_NOTE = best_note
-    if best_note != None:
+    if best_note != None and best_note in NOTES:
         note_to_play = NOTES.index(best_note)
         play_solinoid(note_to_play)
 
@@ -120,7 +94,7 @@ while True:
     new_energy = np.sum(pos_values)
     print(new_energy)
 
-    if new_energy > 15000:
+    if new_energy > 30000:
         silence_counter = TIME_TILL_SILENCE
         pred = chord.classify_chromagram(chroma.chromagram)
         root = index_to_note[pred%12]

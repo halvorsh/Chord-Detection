@@ -18,7 +18,7 @@ class Chromagram:
 
         self.buffer = np.zeros(buffer_size)
         self.chromagram = np.zeros(12)
-        self.previous_spectrum = np.zeros(int(buffer_size/2)+1)
+        self.previous_spectrum = np.ones(int(buffer_size/2)+1)*100000000
         self.magnitude_spectrum = np.zeros(int(buffer_size/2)+1)
 
         self.make_hamming_window(buffer_size)
