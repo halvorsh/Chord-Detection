@@ -46,11 +46,12 @@ def play_chord(chord):
 def voice_leading(chord):
     global PREVIOUS_NOTE
 
-    if PREVIOUS_NOTE == None:
-        play_chord(chord)
-
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
-
+    possible_notes = []
+    for note in notes_in_chord:
+        midi_note = (note-4)%12+52
+        for i in range(2):
+            possible_notes.append(midi_note+12*i)
     if len(possible_notes) == 0:
         return
 
