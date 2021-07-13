@@ -18,7 +18,7 @@ NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 PREVIOUS_NOTE = 64
 print(NOTES)
 
-TIME_TILL_SILENCE = 8
+TIME_TILL_SILENCE = 13
 silence_counter = 0
 
 def play_solinoid(note):
