@@ -43,7 +43,7 @@ def play_chord(chord):
         if convert_note_to_solinoid(note):
             break
 
-def voice_leading(chord):
+def voice_leading(chord, root_change):
     global PREVIOUS_NOTE
 
     notes_in_chord = [i for i, x in enumerate(chord) if x == 1]
@@ -58,11 +58,9 @@ def voice_leading(chord):
     min_distance = 48
     best_note = None
     for note in possible_notes:
-        dist = np.abs(PREVIOUS_NOTE - note)
+        dist = np.abs(PREVIOUS_NOTE - note + root_change)
         if dist < min_distance:
             best_note = note
-
-    print(PREVIOUS_NOTE, best_note, NOTES)
     PREVIOUS_NOTE = best_note
     if best_note != None and best_note in NOTES:
         note_to_play = NOTES.index(best_note)
@@ -93,14 +91,16 @@ while True:
     pos_values = spectrum_dif[spectrum_dif>0]
     new_energy = np.sum(pos_values)
     print(new_energy)
-
+    root = 1
     if new_energy > 30000:
         silence_counter = TIME_TILL_SILENCE
         pred = chord.classify_chromagram(chroma.chromagram)
+        previous_root = root
         root = index_to_note[pred%12]
+        root_change = previous_root - root if previous_root-root < 6 else root - previous_root
         type = type_of_chord[int(pred//12)]
         print(root, type)
-        voice_leading(chord.chord_profiles[pred])
+        voice_leading(chord.chord_profiles[pred], root_change)
     elif silence_counter == 0:
         stop_all()
     else:
