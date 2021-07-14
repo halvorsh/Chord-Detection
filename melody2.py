@@ -91,13 +91,14 @@ while True:
     pos_values = spectrum_dif[spectrum_dif>0]
     new_energy = np.sum(pos_values)
     print(new_energy)
-    root = 1
+    root_num = 1
     if new_energy > 30000:
         silence_counter = TIME_TILL_SILENCE
         pred = chord.classify_chromagram(chroma.chromagram)
-        previous_root = root
-        root = index_to_note[pred%12]
-        root_change = previous_root - root if previous_root-root < 6 else root - previous_root
+        previous_root = root_num
+        root_num = pred%12
+        root = index_to_note[root_num]
+        root_change = previous_root - root_num if previous_root-root_num < 6 else root_num - previous_root
         type = type_of_chord[int(pred//12)]
         print(root, type)
         voice_leading(chord.chord_profiles[pred], root_change)
