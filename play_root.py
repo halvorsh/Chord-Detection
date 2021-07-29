@@ -53,7 +53,7 @@ def play_chord(chord):
         if convert_note_to_solinoid(note):
             break
 
-CHUNK = 2**15
+CHUNK = 2**12
 RATE = 44100
 
 index_to_note = ["C","C#","D","Eb","E","F","F#","G","Ab","A","Bb","B"]

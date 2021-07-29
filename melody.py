@@ -70,7 +70,7 @@ def voice_leading(chord):
 
 
 
-CHUNK = 2**11
+CHUNK = 2**12
 RATE = 44100
 
 index_to_note = ["C","C#","D","Eb","E","F","F#","G","Ab","A","Bb","B"]
