@@ -7,3 +7,10 @@ Ideas for how the squiggles can play
 
 
 port name: hw:Squiggles/"Dr Squiggles"
+
+Collect strumming on a smaller sample then collect big on the chord detection
+filter out the noise the squiggles themselves makes
+
+opc - calibration
+
+adaptive threshold for strum detector, running rms amplitude, certain number of stds above the mean
