@@ -94,7 +94,7 @@ while True:
     new_energy = np.sum(pos_values)
     print(new_energy)
 
-    if new_energy > 30000:
+    if new_energy > 60000:
         silence_counter = TIME_TILL_SILENCE
         pred = chord.classify_chromagram(chroma.chromagram)
         root = index_to_note[pred%12]
