@@ -18,7 +18,7 @@ NOTES = [int(root[i].text.strip()) for i in range(1,9)]
 PREVIOUS_NOTE = 64
 print(NOTES)
 
-TIME_TILL_SILENCE = 13
+TIME_TILL_SILENCE = 8
 silence_counter = 0
 
 def play_solinoid(note):
@@ -94,7 +94,7 @@ while True:
     new_energy = np.sum(pos_values)
     print(new_energy)
 
-    if new_energy > 60000:
+    if new_energy > 40000:
         silence_counter = TIME_TILL_SILENCE
         pred = chord.classify_chromagram(chroma.chromagram)
         root = index_to_note[pred%12]
