@@ -1,0 +1,27 @@
+- Chromagram.py
+The program taking in the audio chunks, and assigns a score for each note, which is passed on the Chord Detector
+
+-ChordDetector.py
+Takes in the note predictions from chromagram, and then uses that to predict which chord is currently being played
+
+-play_root.py
+After the chord is predicted, the Dr. Squiggles will try and play the root note, if that is one of the notes it has
+
+-play_chord.py
+After the chord is predicted, the Dr. Squiggles will try and play a random note in the predicted chord, provided it has one.
+
+-melody.py
+Does the same as play_chord.py, but instead of playing a random note in the chord, it tries to play the closest note in the chord.
+Also here the squiggles are trying to predict what the other squiggles are playing as well, so ideally only one note will be played at once.
+
+-melody2.py
+The same as melody.py, but instead of the closest note, it tries to match the distance in the chord change for the melody line.
+
+-test_chord_detection.py
+Runs the chord detector on a dataset, and predicts chords. Prints the results out to Classification.txt
+
+-chord_detection_correctness.py
+Takes the data from Classification.txt, and prints out statistics, such as the average distance between the predicted chord and correct chord, the number of predictions made, the number of correct predictions made, and the percentage of correct predictions.
+
+-confusion_matrix.py
+Takes the data from Classification.txt, and creates a confusion matrix between predicted chord and actual chord

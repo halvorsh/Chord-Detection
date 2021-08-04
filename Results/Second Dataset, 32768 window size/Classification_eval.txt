@@ -1,0 +1,647 @@
+Evaluation of Classification
+Identification for Bb Dominant 7th
+Average distance: 0.28
+Number of identifications: 25
+Number of correct identifications: 20
+Percentage of correct identifications: 0.8
+
+Identification for Bb Augmented
+Average distance: 1.1111111111111112
+Number of identifications: 18
+Number of correct identifications: 11
+Percentage of correct identifications: 0.6111111111111112
+
+Identification for Bb Diminished
+Average distance: 0.0
+Number of identifications: 14
+Number of correct identifications: 14
+Percentage of correct identifications: 1.0
+
+Identification for Bb Major
+Average distance: 0.5
+Number of identifications: 14
+Number of correct identifications: 7
+Percentage of correct identifications: 0.5
+
+Identification for Bb Major 7th
+Average distance: 0.782608695652174
+Number of identifications: 23
+Number of correct identifications: 18
+Percentage of correct identifications: 0.782608695652174
+
+Identification for Bb Minor
+Average distance: 0.3333333333333333
+Number of identifications: 21
+Number of correct identifications: 14
+Percentage of correct identifications: 0.6666666666666666
+
+Identification for Bb Minor 7th
+Average distance: 0.14285714285714285
+Number of identifications: 21
+Number of correct identifications: 18
+Percentage of correct identifications: 0.8571428571428571
+
+Identification for Bb Sus2
+Average distance: 0.3076923076923077
+Number of identifications: 13
+Number of correct identifications: 11
+Percentage of correct identifications: 0.8461538461538461
+
+Identification for Bb Sus4
+Average distance: 0.48
+Number of identifications: 25
+Number of correct identifications: 19
+Percentage of correct identifications: 0.76
+
+Identification for A Dominant 7th
+Average distance: 0.09523809523809523
+Number of identifications: 21
+Number of correct identifications: 19
+Percentage of correct identifications: 0.9047619047619048
+
+Identification for A Augmented
+Average distance: 0.9375
+Number of identifications: 16
+Number of correct identifications: 10
+Percentage of correct identifications: 0.625
+
+Identification for A Diminished
+Average distance: 0.0
+Number of identifications: 12
+Number of correct identifications: 12
+Percentage of correct identifications: 1.0
+
+Identification for A Major
+Average distance: 0.21428571428571427
+Number of identifications: 14
+Number of correct identifications: 11
+Percentage of correct identifications: 0.7857142857142857
+
+Identification for A Major 7th
+Average distance: 0.05555555555555555
+Number of identifications: 18
+Number of correct identifications: 17
+Percentage of correct identifications: 0.9444444444444444
+
+Identification for A Minor
+Average distance: 0.17391304347826086
+Number of identifications: 23
+Number of correct identifications: 19
+Percentage of correct identifications: 0.8260869565217391
+
+Identification for A Minor 7th
+Average distance: 0.0
+Number of identifications: 20
+Number of correct identifications: 20
+Percentage of correct identifications: 1.0
+
+Identification for A Sus2
+Average distance: 0.0
+Number of identifications: 18
+Number of correct identifications: 18
+Percentage of correct identifications: 1.0
+
+Identification for A Sus4
+Average distance: 0.38095238095238093
+Number of identifications: 21
+Number of correct identifications: 17
+Percentage of correct identifications: 0.8095238095238095
+
+Identification for B Dominant 7th
+Average distance: 0.2
+Number of identifications: 20
+Number of correct identifications: 18
+Percentage of correct identifications: 0.9
+
+Identification for B Augmented
+Average distance: 0.625
+Number of identifications: 16
+Number of correct identifications: 12
+Percentage of correct identifications: 0.75
+
+Identification for B Diminished
+Average distance: 0.7777777777777778
+Number of identifications: 18
+Number of correct identifications: 13
+Percentage of correct identifications: 0.7222222222222222
+
+Identification for B Major
+Average distance: 0.4375
+Number of identifications: 16
+Number of correct identifications: 9
+Percentage of correct identifications: 0.5625
+
+Identification for B Major 7th
+Average distance: 0.05263157894736842
+Number of identifications: 19
+Number of correct identifications: 18
+Percentage of correct identifications: 0.9473684210526315
+
+Identification for B Minor
+Average distance: 0.23529411764705882
+Number of identifications: 17
+Number of correct identifications: 13
+Percentage of correct identifications: 0.7647058823529411
+
+Identification for B Minor 7th
+Average distance: 0.0
+Number of identifications: 24
+Number of correct identifications: 24
+Percentage of correct identifications: 1.0
+
+Identification for B Sus2
+Average distance: 0.42857142857142855
+Number of identifications: 14
+Number of correct identifications: 11
+Percentage of correct identifications: 0.7857142857142857
+
+Identification for B Sus4
+Average distance: 0.08
+Number of identifications: 25
+Number of correct identifications: 24
+Percentage of correct identifications: 0.96
+
+Identification for C# Dominant 7th
+Average distance: 0.2
+Number of identifications: 15
+Number of correct identifications: 12
+Percentage of correct identifications: 0.8
+
+Identification for C# Augmented
+Average distance: 0.0
+Number of identifications: 13
+Number of correct identifications: 13
+Percentage of correct identifications: 1.0
+
+Identification for C# Diminished
+Average distance: 0.8235294117647058
+Number of identifications: 17
+Number of correct identifications: 12
+Percentage of correct identifications: 0.7058823529411765
+
+Identification for C# Major
+Average distance: 0.0
+Number of identifications: 14
+Number of correct identifications: 14
+Percentage of correct identifications: 1.0
+
+Identification for C# Major 7th
+Average distance: 0.1875
+Number of identifications: 16
+Number of correct identifications: 13
+Percentage of correct identifications: 0.8125
+
+Identification for C# Minor
+Average distance: 0.45
+Number of identifications: 20
+Number of correct identifications: 11
+Percentage of correct identifications: 0.55
+
+Identification for C# Minor 7th
+Average distance: 0.0
+Number of identifications: 23
+Number of correct identifications: 23
+Percentage of correct identifications: 1.0
+
+Identification for C# Sus2
+Average distance: 0.26666666666666666
+Number of identifications: 15
+Number of correct identifications: 13
+Percentage of correct identifications: 0.8666666666666667
+
+Identification for C# Sus4
+Average distance: 0.5294117647058824
+Number of identifications: 17
+Number of correct identifications: 14
+Percentage of correct identifications: 0.8235294117647058
+
+Identification for C Dominant 7th
+Average distance: 0.2727272727272727
+Number of identifications: 22
+Number of correct identifications: 19
+Percentage of correct identifications: 0.8636363636363636
+
+Identification for C Augmented
+Average distance: 0.7692307692307693
+Number of identifications: 13
+Number of correct identifications: 9
+Percentage of correct identifications: 0.6923076923076923
+
+Identification for C Diminished
+Average distance: 1.4
+Number of identifications: 15
+Number of correct identifications: 8
+Percentage of correct identifications: 0.5333333333333333
+
+Identification for C Major
+Average distance: 0.5833333333333334
+Number of identifications: 12
+Number of correct identifications: 5
+Percentage of correct identifications: 0.4166666666666667
+
+Identification for C Major 7th
+Average distance: 0.0
+Number of identifications: 17
+Number of correct identifications: 17
+Percentage of correct identifications: 1.0
+
+Identification for C Minor
+Average distance: 0.6
+Number of identifications: 20
+Number of correct identifications: 8
+Percentage of correct identifications: 0.4
+
+Identification for C Minor 7th
+Average distance: 0.0
+Number of identifications: 20
+Number of correct identifications: 20
+Percentage of correct identifications: 1.0
+
+Identification for C Sus2
+Average distance: 0.21052631578947367
+Number of identifications: 19
+Number of correct identifications: 17
+Percentage of correct identifications: 0.8947368421052632
+
+Identification for C Sus4
+Average distance: 0.0
+Number of identifications: 16
+Number of correct identifications: 16
+Percentage of correct identifications: 1.0
+
+Identification for Eb Dominant 7th
+Average distance: 0.2
+Number of identifications: 20
+Number of correct identifications: 16
+Percentage of correct identifications: 0.8
+
+Identification for Eb Augmented
+Average distance: 0.25
+Number of identifications: 16
+Number of correct identifications: 14
+Percentage of correct identifications: 0.875
+
+Identification for Eb Diminished
+Average distance: 0.25
+Number of identifications: 16
+Number of correct identifications: 14
+Percentage of correct identifications: 0.875
+
+Identification for Eb Major
+Average distance: 0.0
+Number of identifications: 17
+Number of correct identifications: 17
+Percentage of correct identifications: 1.0
+
+Identification for Eb Major 7th
+Average distance: 0.1875
+Number of identifications: 16
+Number of correct identifications: 13
+Percentage of correct identifications: 0.8125
+
+Identification for Eb Minor
+Average distance: 0.0
+Number of identifications: 22
+Number of correct identifications: 22
+Percentage of correct identifications: 1.0
+
+Identification for Eb Minor 7th
+Average distance: 0.2222222222222222
+Number of identifications: 18
+Number of correct identifications: 14
+Percentage of correct identifications: 0.7777777777777778
+
+Identification for Eb Sus2
+Average distance: 0.1111111111111111
+Number of identifications: 18
+Number of correct identifications: 17
+Percentage of correct identifications: 0.9444444444444444
+
+Identification for Eb Sus4
+Average distance: 0.11764705882352941
+Number of identifications: 17
+Number of correct identifications: 16
+Percentage of correct identifications: 0.9411764705882353
+
+Identification for D Dominant 7th
+Average distance: 0.29411764705882354
+Number of identifications: 17
+Number of correct identifications: 12
+Percentage of correct identifications: 0.7058823529411765
+
+Identification for D Augmented
+Average distance: 0.25
+Number of identifications: 16
+Number of correct identifications: 14
+Percentage of correct identifications: 0.875
+
+Identification for D Diminished
+Average distance: 0.625
+Number of identifications: 16
+Number of correct identifications: 11
+Percentage of correct identifications: 0.6875
+
+Identification for D Major
+Average distance: 0.0
+Number of identifications: 15
+Number of correct identifications: 15
+Percentage of correct identifications: 1.0
+
+Identification for D Major 7th
+Average distance: 0.29411764705882354
+Number of identifications: 17
+Number of correct identifications: 12
+Percentage of correct identifications: 0.7058823529411765
+
+Identification for D Minor
+Average distance: 0.0
+Number of identifications: 23
+Number of correct identifications: 23
+Percentage of correct identifications: 1.0
+
+Identification for D Minor 7th
+Average distance: 0.21052631578947367
+Number of identifications: 19
+Number of correct identifications: 15
+Percentage of correct identifications: 0.7894736842105263
+
+Identification for D Sus2
+Average distance: 0.4
+Number of identifications: 15
+Number of correct identifications: 12
+Percentage of correct identifications: 0.8
+
+Identification for D Sus4
+Average distance: 0.0
+Number of identifications: 19
+Number of correct identifications: 19
+Percentage of correct identifications: 1.0
+
+Identification for E Dominant 7th
+Average distance: 0.19047619047619047
+Number of identifications: 21
+Number of correct identifications: 17
+Percentage of correct identifications: 0.8095238095238095
+
+Identification for E Augmented
+Average distance: 1.5263157894736843
+Number of identifications: 19
+Number of correct identifications: 8
+Percentage of correct identifications: 0.42105263157894735
+
+Identification for E Diminished
+Average distance: 0.47058823529411764
+Number of identifications: 17
+Number of correct identifications: 13
+Percentage of correct identifications: 0.7647058823529411
+
+Identification for E Major
+Average distance: 0.0
+Number of identifications: 18
+Number of correct identifications: 18
+Percentage of correct identifications: 1.0
+
+Identification for E Major 7th
+Average distance: 0.25
+Number of identifications: 16
+Number of correct identifications: 12
+Percentage of correct identifications: 0.75
+
+Identification for E Minor
+Average distance: 0.0
+Number of identifications: 21
+Number of correct identifications: 21
+Percentage of correct identifications: 1.0
+
+Identification for E Minor 7th
+Average distance: 0.17857142857142858
+Number of identifications: 28
+Number of correct identifications: 23
+Percentage of correct identifications: 0.8214285714285714
+
+Identification for E Sus2
+Average distance: 0.16666666666666666
+Number of identifications: 24
+Number of correct identifications: 22
+Percentage of correct identifications: 0.9166666666666666
+
+Identification for E Sus4
+Average distance: 0.0
+Number of identifications: 23
+Number of correct identifications: 23
+Percentage of correct identifications: 1.0
+
+Identification for F# Dominant 7th
+Average distance: 0.2727272727272727
+Number of identifications: 22
+Number of correct identifications: 16
+Percentage of correct identifications: 0.7272727272727273
+
+Identification for F# Augmented
+Average distance: 0.0
+Number of identifications: 20
+Number of correct identifications: 20
+Percentage of correct identifications: 1.0
+
+Identification for F# Diminished
+Average distance: 0.5263157894736842
+Number of identifications: 19
+Number of correct identifications: 15
+Percentage of correct identifications: 0.7894736842105263
+
+Identification for F# Major
+Average distance: 0.0
+Number of identifications: 16
+Number of correct identifications: 16
+Percentage of correct identifications: 1.0
+
+Identification for F# Major 7th
+Average distance: 0.21052631578947367
+Number of identifications: 19
+Number of correct identifications: 15
+Percentage of correct identifications: 0.7894736842105263
+
+Identification for F# Minor
+Average distance: 0.1
+Number of identifications: 20
+Number of correct identifications: 19
+Percentage of correct identifications: 0.95
+
+Identification for F# Minor 7th
+Average distance: 0.13636363636363635
+Number of identifications: 22
+Number of correct identifications: 19
+Percentage of correct identifications: 0.8636363636363636
+
+Identification for F# Sus2
+Average distance: 0.375
+Number of identifications: 16
+Number of correct identifications: 13
+Percentage of correct identifications: 0.8125
+
+Identification for F# Sus4
+Average distance: 0.38095238095238093
+Number of identifications: 21
+Number of correct identifications: 17
+Percentage of correct identifications: 0.8095238095238095
+
+Identification for F Dominant 7th
+Average distance: 0.125
+Number of identifications: 24
+Number of correct identifications: 21
+Percentage of correct identifications: 0.875
+
+Identification for F Augmented
+Average distance: 0.14285714285714285
+Number of identifications: 21
+Number of correct identifications: 20
+Percentage of correct identifications: 0.9523809523809523
+
+Identification for F Diminished
+Average distance: 0.0
+Number of identifications: 16
+Number of correct identifications: 16
+Percentage of correct identifications: 1.0
+
+Identification for F Major
+Average distance: 0.0
+Number of identifications: 17
+Number of correct identifications: 17
+Percentage of correct identifications: 1.0
+
+Identification for F Major 7th
+Average distance: 0.3684210526315789
+Number of identifications: 19
+Number of correct identifications: 12
+Percentage of correct identifications: 0.631578947368421
+
+Identification for F Minor
+Average distance: 0.0
+Number of identifications: 17
+Number of correct identifications: 17
+Percentage of correct identifications: 1.0
+
+Identification for F Minor 7th
+Average distance: 0.4827586206896552
+Number of identifications: 29
+Number of correct identifications: 23
+Percentage of correct identifications: 0.7931034482758621
+
+Identification for F Sus2
+Average distance: 0.0
+Number of identifications: 15
+Number of correct identifications: 15
+Percentage of correct identifications: 1.0
+
+Identification for F Sus4
+Average distance: 0.6666666666666666
+Number of identifications: 21
+Number of correct identifications: 15
+Percentage of correct identifications: 0.7142857142857143
+
+Identification for Ab Dominant 7th
+Average distance: 0.4444444444444444
+Number of identifications: 18
+Number of correct identifications: 15
+Percentage of correct identifications: 0.8333333333333334
+
+Identification for Ab Augmented
+Average distance: 0.5
+Number of identifications: 20
+Number of correct identifications: 15
+Percentage of correct identifications: 0.75
+
+Identification for Ab Diminished
+Average distance: 0.25
+Number of identifications: 16
+Number of correct identifications: 14
+Percentage of correct identifications: 0.875
+
+Identification for Ab Major
+Average distance: 0.5
+Number of identifications: 14
+Number of correct identifications: 11
+Percentage of correct identifications: 0.7857142857142857
+
+Identification for Ab Major 7th
+Average distance: 0.3076923076923077
+Number of identifications: 13
+Number of correct identifications: 10
+Percentage of correct identifications: 0.7692307692307693
+
+Identification for Ab Minor
+Average distance: 0.4090909090909091
+Number of identifications: 22
+Number of correct identifications: 16
+Percentage of correct identifications: 0.7272727272727273
+
+Identification for Ab Minor 7th
+Average distance: 0.16
+Number of identifications: 25
+Number of correct identifications: 23
+Percentage of correct identifications: 0.92
+
+Identification for Ab Sus2
+Average distance: 0.23529411764705882
+Number of identifications: 17
+Number of correct identifications: 15
+Percentage of correct identifications: 0.8823529411764706
+
+Identification for Ab Sus4
+Average distance: 0.6111111111111112
+Number of identifications: 18
+Number of correct identifications: 13
+Percentage of correct identifications: 0.7222222222222222
+
+Identification for G Dominant 7th
+Average distance: 0.3333333333333333
+Number of identifications: 18
+Number of correct identifications: 14
+Percentage of correct identifications: 0.7777777777777778
+
+Identification for G Augmented
+Average distance: 0.0
+Number of identifications: 13
+Number of correct identifications: 13
+Percentage of correct identifications: 1.0
+
+Identification for G Diminished
+Average distance: 0.26666666666666666
+Number of identifications: 15
+Number of correct identifications: 13
+Percentage of correct identifications: 0.8666666666666667
+
+Identification for G Major
+Average distance: 0.25
+Number of identifications: 12
+Number of correct identifications: 9
+Percentage of correct identifications: 0.75
+
+Identification for G Major 7th
+Average distance: 0.05
+Number of identifications: 20
+Number of correct identifications: 19
+Percentage of correct identifications: 0.95
+
+Identification for G Minor
+Average distance: 0.15789473684210525
+Number of identifications: 19
+Number of correct identifications: 16
+Percentage of correct identifications: 0.8421052631578947
+
+Identification for G Minor 7th
+Average distance: 0.16666666666666666
+Number of identifications: 24
+Number of correct identifications: 21
+Percentage of correct identifications: 0.875
+
+Identification for G Sus2
+Average distance: 0.0
+Number of identifications: 17
+Number of correct identifications: 17
+Percentage of correct identifications: 1.0
+
+Identification for G Sus4
+Average distance: 0.36363636363636365
+Number of identifications: 11
+Number of correct identifications: 9

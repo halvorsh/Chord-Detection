@@ -1,0 +1,2197 @@
+Chord Classification
+a#7.wav
+Bb Major 7th
+Bb Dominant 7th
+Bb Major
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Major
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Major 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Major
+Bb Dominant 7th
+Bb Dominant 7th
+Bb Dominant 7th
+
+a#aug.wav
+D Augmented
+D Augmented
+Bb Major
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+Bb Major 7th
+Bb Major 7th
+D Augmented
+D Augmented
+D Augmented
+
+a#dim.wav
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+Bb Diminished
+
+a#maj.wav
+Bb Major 7th
+Bb Major 7th
+Bb Major
+Bb Major 7th
+Bb Major 7th
+Bb Major
+Bb Major
+Bb Major 7th
+Bb Major 7th
+Bb Major
+Bb Major
+Bb Major 7th
+Bb Major
+Bb Major
+
+a#maj7.wav
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+D Augmented
+F# Major 7th
+F# Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+Bb Major 7th
+D Augmented
+F# Major 7th
+Bb Major 7th
+
+a#min.wav
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor 7th
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor
+Bb Minor 7th
+Bb Minor
+Bb Minor 7th
+Bb Minor
+
+a#min7.wav
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor 7th
+Bb Minor
+Bb Minor 7th
+Bb Minor 7th
+
+a#sus2.wav
+Bb Sus2
+Bb Major
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Major
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+
+a#sus4.wav
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Major
+Eb Major
+Eb Minor
+Eb Sus2
+
+a7.wav
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Major
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Major
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+A Dominant 7th
+
+aaug.wav
+C# Augmented
+A Major 7th
+A Major
+F Major 7th
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+A Major 7th
+A Major
+A Major
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+
+adim.wav
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+A Diminished
+
+amaj.wav
+A Major
+A Major 7th
+A Major
+A Major
+A Major
+A Major 7th
+A Major
+A Major
+A Major 7th
+A Major
+A Major
+A Major
+A Major
+A Major
+
+amaj7.wav
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+A Major
+A Major 7th
+A Major 7th
+A Major 7th
+A Major 7th
+
+amin.wav
+A Minor 7th
+A Minor 7th
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor 7th
+A Minor 7th
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+A Minor
+
+amin7.wav
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+A Minor 7th
+
+asus2.wav
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+
+asus4.wav
+D Sus2
+D Sus2
+A Sus2
+D Sus2
+D Sus2
+D Sus2
+A Sus2
+D Minor
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+A Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+
+b7.wav
+B Major 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Major 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+B Dominant 7th
+
+baug.wav
+Eb Augmented
+B Major 7th
+B Major
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+B Major 7th
+B Major
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+
+bdim.wav
+B Minor 7th
+B Diminished
+B Minor 7th
+B Diminished
+B Diminished
+B Diminished
+B Diminished
+B Diminished
+B Diminished
+B Minor 7th
+B Diminished
+B Minor
+B Minor 7th
+B Diminished
+B Diminished
+B Diminished
+B Diminished
+B Diminished
+
+bmaj.wav
+B Major 7th
+B Major 7th
+B Major
+B Major 7th
+B Major 7th
+B Major
+B Major
+B Major
+B Major 7th
+B Major 7th
+B Major
+B Major
+B Major 7th
+B Major
+B Major
+B Major
+
+bmaj7.wav
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+Eb Minor
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+B Major 7th
+
+bmin.wav
+B Minor 7th
+B Minor
+B Minor 7th
+B Minor
+B Minor
+B Minor
+B Minor
+B Minor
+B Minor 7th
+B Minor
+B Minor
+B Minor 7th
+B Minor
+B Minor
+B Minor
+B Minor
+B Minor
+
+bmin7.wav
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+B Minor 7th
+
+bsus2.wav
+B Sus2
+B Major
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Major
+B Major
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+
+bsus4.wav
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Major
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+
+c#7.wav
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+C# Major
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+C# Major
+C# Major
+C# Dominant 7th
+C# Dominant 7th
+C# Dominant 7th
+
+c#aug.wav
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+
+c#dim.wav
+C# Minor 7th
+C# Diminished
+C# Diminished
+C# Minor
+C# Diminished
+C# Minor 7th
+C# Diminished
+C# Diminished
+C# Minor 7th
+C# Diminished
+C# Diminished
+C# Diminished
+C# Diminished
+C# Minor 7th
+C# Diminished
+C# Diminished
+C# Diminished
+
+c#maj.wav
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+C# Major
+
+c#maj7.wav
+C# Major
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major
+C# Major
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+C# Major 7th
+
+c#min.wav
+C# Minor 7th
+C# Minor 7th
+C# Minor
+C# Minor 7th
+C# Minor 7th
+C# Minor
+C# Minor
+C# Minor
+C# Minor
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor
+C# Minor 7th
+C# Minor
+C# Minor
+C# Minor
+C# Minor
+C# Minor 7th
+C# Minor
+
+c#min7.wav
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+C# Minor 7th
+
+c#sus2.wav
+C# Sus2
+C# Major
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Minor
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+
+c#sus4.wav
+Bb Minor 7th
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+Bb Minor 7th
+Bb Minor 7th
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+
+c7.wav
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Major 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Major 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Major 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+C Dominant 7th
+
+caug.wav
+C Augmented
+Ab Major 7th
+C Major
+C Augmented
+C Augmented
+C Major 7th
+C Augmented
+C Augmented
+C Augmented
+C Major
+C Augmented
+C Augmented
+C Augmented
+
+cdim.wav
+C Minor 7th
+C Diminished
+C Minor 7th
+C Minor 7th
+C Diminished
+C Diminished
+C Diminished
+C Diminished
+C Minor 7th
+C Diminished
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Diminished
+C Diminished
+
+cmaj.wav
+C Major 7th
+C Major 7th
+C Major
+C Major 7th
+C Major 7th
+C Major
+C Major 7th
+C Major 7th
+C Major
+C Major
+C Major 7th
+C Major
+
+cmaj7.wav
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+C Major 7th
+
+cmin.wav
+C Minor 7th
+C Minor 7th
+C Minor
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor
+C Minor
+C Minor
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor
+C Minor
+C Minor
+
+cmin7.wav
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+C Minor 7th
+
+csus2.wav
+C Sus2
+C Major
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Major
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+
+csus4.wav
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+
+d#7.wav
+Eb Major
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Major
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Dominant 7th
+Eb Major
+Eb Dominant 7th
+Eb Major
+Eb Dominant 7th
+
+d#aug.wav
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Major
+Eb Major
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+
+d#dim.wav
+Eb Diminished
+Eb Diminished
+Eb Minor
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Minor
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+Eb Diminished
+
+d#maj.wav
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+Eb Major
+
+d#maj7.wav
+Eb Major
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major
+Eb Major
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+Eb Major 7th
+
+d#min.wav
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+Eb Minor
+
+d#min7.wav
+Eb Minor
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor 7th
+Eb Minor
+Eb Minor 7th
+
+d#sus2.wav
+Eb Sus2
+Eb Major
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+Eb Sus2
+
+d#sus4.wav
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Eb Major
+Ab Sus2
+
+d7.wav
+D Major
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Major
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Dominant 7th
+D Major
+D Major
+D Major
+D Dominant 7th
+D Dominant 7th
+
+daug.wav
+D Augmented
+D Augmented
+D Major
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Major
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+
+ddim.wav
+D Diminished
+D Diminished
+D Minor
+D Diminished
+D Minor
+D Diminished
+D Minor
+D Diminished
+D Diminished
+D Diminished
+D Minor
+D Diminished
+D Diminished
+D Minor
+D Diminished
+D Diminished
+
+dmaj.wav
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+D Major
+
+dmaj7.wav
+D Major
+D Major 7th
+D Major 7th
+D Major 7th
+D Major 7th
+D Major 7th
+D Major 7th
+D Major
+D Major
+D Major
+D Major 7th
+D Major 7th
+D Major
+D Major 7th
+D Major 7th
+D Major 7th
+D Major 7th
+
+dmin.wav
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+D Minor
+
+dmin7.wav
+D Minor
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor 7th
+D Minor
+D Minor 7th
+
+dsus2.wav
+D Sus2
+D Major
+D Sus2
+D Major
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+D Minor
+D Sus2
+D Sus2
+D Sus2
+D Sus2
+
+dsus4.wav
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+
+e7.wav
+E Dominant 7th
+E Major
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Major
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Major
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+E Major
+E Dominant 7th
+E Dominant 7th
+E Dominant 7th
+
+eaug.wav
+C Major 7th
+C Augmented
+E Dominant 7th
+E Dominant 7th
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+E Major
+C Augmented
+C Major 7th
+C Major 7th
+C Augmented
+E Major
+C Major 7th
+E Major
+C Major 7th
+E Major
+C Augmented
+
+edim.wav
+E Minor
+E Diminished
+E Diminished
+E Diminished
+E Diminished
+E Diminished
+E Diminished
+E Diminished
+E Diminished
+E Minor
+E Minor
+E Diminished
+E Diminished
+E Minor
+E Diminished
+E Diminished
+E Diminished
+
+emaj.wav
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+E Major
+
+emaj7.wav
+E Major 7th
+E Major
+E Major
+E Major 7th
+E Major 7th
+E Major 7th
+E Major 7th
+E Major 7th
+E Major
+E Major 7th
+E Major
+E Major 7th
+E Major 7th
+E Major 7th
+E Major 7th
+E Major 7th
+
+emin.wav
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+E Minor
+
+emin7.wav
+E Minor 7th
+E Minor
+E Minor 7th
+E Minor 7th
+E Minor
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor 7th
+E Minor
+
+esus2.wav
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Major
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Major
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+E Sus2
+
+esus4.wav
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+A Sus2
+
+f#7.wav
+F# Dominant 7th
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Dominant 7th
+F# Dominant 7th
+F# Dominant 7th
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Dominant 7th
+F# Major
+F# Dominant 7th
+F# Dominant 7th
+F# Dominant 7th
+
+f#aug.wav
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+D Augmented
+
+f#dim.wav
+F# Minor 7th
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Minor 7th
+F# Diminished
+F# Diminished
+F# Diminished
+Eb Diminished
+Eb Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+F# Diminished
+
+f#maj.wav
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+F# Major
+
+f#maj7.wav
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major
+F# Major 7th
+F# Major 7th
+F# Major
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major 7th
+F# Major
+F# Major 7th
+F# Major 7th
+F# Major
+
+f#min.wav
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Major
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+F# Minor
+
+f#min7.wav
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor
+F# Minor 7th
+F# Minor
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor 7th
+F# Minor
+F# Minor 7th
+F# Minor 7th
+
+f#sus2.wav
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Major
+F# Sus2
+F# Sus2
+F# Sus2
+F# Major
+F# Sus2
+F# Major
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+F# Sus2
+
+f#sus4.wav
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Major
+B Major
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Sus2
+B Major
+B Major
+B Sus2
+B Sus2
+
+f7.wav
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Major
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+F Major
+F Dominant 7th
+F Dominant 7th
+F Major
+F Dominant 7th
+F Dominant 7th
+F Dominant 7th
+
+faug.wav
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+F Major 7th
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+C# Augmented
+
+fdim.wav
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+F Diminished
+
+fmaj.wav
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+F Major
+
+fmaj7.wav
+F Major
+F Major 7th
+F Major 7th
+F Major
+F Major 7th
+F Major 7th
+F Major 7th
+F Major 7th
+F Major
+F Major
+F Major
+F Major 7th
+F Major 7th
+F Major
+F Major
+F Major 7th
+F Major 7th
+F Major 7th
+F Major 7th
+
+fmin.wav
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+F Minor
+
+fmin7.wav
+F Minor 7th
+F Minor
+F Dominant 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Sus2
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Dominant 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Sus2
+Eb Sus2
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+F Minor 7th
+
+fsus2.wav
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+F Sus2
+
+fsus4.wav
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Major 7th
+Bb Minor
+Bb Minor
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Sus2
+Bb Major 7th
+Bb Minor
+Bb Sus2
+Bb Major
+Bb Sus2
+Bb Sus2
+
+g#7.wav
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Minor
+Ab Major
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+Ab Dominant 7th
+E Major 7th
+
+g#aug.wav
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+C Augmented
+E Major
+E Major
+Ab Major
+C Augmented
+C Augmented
+C Augmented
+E Major
+C Augmented
+C Augmented
+C Augmented
+E Major
+C Augmented
+
+g#dim.wav
+Ab Diminished
+B Minor
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+B Minor
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+Ab Diminished
+
+g#maj.wav
+C Minor 7th
+Ab Major
+Ab Major
+Ab Major
+Ab Major
+Ab Major 7th
+Ab Major
+C Minor 7th
+Ab Major
+Ab Major
+Ab Major
+Ab Major
+Ab Major
+Ab Major
+
+g#maj7.wav
+Ab Major 7th
+C Minor 7th
+Ab Major 7th
+Ab Major 7th
+Ab Major 7th
+Ab Major 7th
+Ab Major 7th
+Ab Major
+Ab Major
+Ab Major 7th
+Ab Major 7th
+Ab Major 7th
+Ab Major 7th
+
+g#min.wav
+B Major 7th
+Ab Minor 7th
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor 7th
+Ab Major
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+Ab Minor
+
+g#min7.wav
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Eb Minor
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor 7th
+Ab Minor
+Ab Minor 7th
+
+g#sus2.wav
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Minor
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Sus2
+Ab Minor
+
+g#sus4.wav
+C# Sus2
+C# Sus2
+Ab Sus2
+C# Sus2
+C# Sus2
+C# Major
+C# Major
+C# Sus2
+C# Sus2
+Eb Dominant 7th
+C# Sus2
+C# Sus2
+C# Sus2
+C# Sus2
+C# Minor
+C# Sus2
+C# Sus2
+C# Sus2
+
+g7.wav
+G Major 7th
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Major
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Major 7th
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Dominant 7th
+G Major
+G Dominant 7th
+G Dominant 7th
+
+gaug.wav
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+Eb Augmented
+
+gdim.wav
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+C# Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+G Diminished
+C# Diminished
+
+gmaj.wav
+G Major 7th
+G Major
+G Major
+G Major 7th
+G Major
+G Major
+G Major 7th
+G Major
+G Major
+G Major
+G Major
+G Major
+
+gmaj7.wav
+G Major 7th
+G Major 7th
+G Major
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+G Major 7th
+
+gmin.wav
+G Minor 7th
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor 7th
+G Minor 7th
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+G Minor
+
+gmin7.wav
+G Minor 7th
+G Minor 7th
+G Dominant 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor 7th
+G Minor
+G Minor 7th
+G Minor
+G Minor 7th
+
+gsus2.wav
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+G Sus2
+
+gsus4.wav
+C Sus2
+C Sus2
+C Sus2
+C Sus2
+C Major
+C Sus2
+C Sus2
+G Major
+C Sus2
+C Sus2
+C Sus2
+
